@@ -1,7 +1,7 @@
 {
   "name": "improved-asp-html",
   "main": "./lib/improved-asp-html",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Improved ASP Classic Grammar and Snippets",
   "keywords": [
     "syntax",
