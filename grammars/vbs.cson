@@ -1,7 +1,7 @@
 'fileTypes': [
-  'asa','c', 'inc'
+  'vbs'
 ]
-'name': 'ASP'
+'name': 'VBScript'
 'patterns': [
   {
     'captures':
@@ -129,4 +129,4 @@
     'name': 'support.type.vb.asp'
   }
 ]
-'scopeName': 'source.asp'
+'scopeName': 'source.vbs'
