@@ -1,0 +1,23 @@
+{
+  "name": "improved-asp-html",
+  "main": "./lib/improved-asp-html",
+  "version": "1.0.0",
+  "description": "Improved ASP Classic Grammar and Snippets",
+  "keywords": [
+    "syntax",
+    "asp",
+    "vbscript",
+    "html",
+    "fluidcoding"
+  ],
+  "activationCommands": {
+    "atom-workspace": "improved-asp-html:toggle"
+  },
+  "repository": "https://github.com/atom/improved-asp-html",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

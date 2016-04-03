@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle improved-asp-html'
+      'command': 'improved-asp-html:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'improved-asp-html'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'improved-asp-html:toggle'
+        }
+      ]
+    ]
+  }
+]
