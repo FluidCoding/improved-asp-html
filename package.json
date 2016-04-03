@@ -1,17 +1,15 @@
 {
   "name": "improved-asp-html",
-  "version": "1.4.0",
+  "version": "1.2.0",
   "description": "Improved ASP Classic Grammar and Snippets",
   "keywords": [
     "syntax",
     "asp",
     "vbscript",
     "html",
+    "classic"
     "fluidcoding"
   ],
-  "activationCommands": {
-    "atom-workspace": "improved-asp-html:toggle"
-  },
   "repository": "https://github.com/FluidCoding/improved-asp-html",
   "license": "MIT",
   "engines": {
