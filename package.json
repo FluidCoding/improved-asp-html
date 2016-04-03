@@ -1,7 +1,7 @@
 {
   "name": "improved-asp-html",
   "main": "./lib/improved-asp-html",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Improved ASP Classic Grammar and Snippets",
   "keywords": [
     "syntax",
@@ -18,6 +18,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
