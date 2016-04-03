@@ -1,6 +1,6 @@
 'comment': 'ASP SCRIPTING DICTIONARY – By Rich Barton: Version 1.0 (based on PHP Scripting Dictionary by Justin French, Sune Foldager and Allan Odgaard) Note: .asp is handled by asp/html'
 'fileTypes': [
-  'asa'
+  'asa','c', 'inc'
 ]
 'name': 'ASP'
 'patterns': [

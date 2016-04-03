@@ -8,11 +8,9 @@
     "asp",
     "vbscript",
     "html",
+    "classic",
     "fluidcoding"
   ],
-  "activationCommands": {
-    "atom-workspace": "improved-asp-html:toggle"
-  },
   "repository": "https://github.com/FluidCoding/improved-asp-html",
   "license": "MIT",
   "engines": {
