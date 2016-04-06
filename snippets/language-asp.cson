@@ -2,9 +2,12 @@
   '<%= %>':
     'prefix': '='
     'body': '<%= $0 %>'
+  'Option Explicit':
+  	'prefix': 'Option'
+  	'body': 'Option Explicit'
   'For … in … Next':
     'prefix': 'forin'
-    'body': 'For ${1:var} in ${2:array}\n\t${3:\' body}\nNext'
+    'body': 'For Each ${1:var} in ${2:array}\n\t${3:\' body}\nNext'
   'For … To … Next':
     'prefix': 'forto'
     'body': 'For ${1:i} To ${2:n}\n\t\' body\nNext'
@@ -43,10 +46,10 @@
     'body': 'Function ${1:F}\n\t\'body\nEnd Function'
   'Read File':
     'prefix': 'ReadFile'
-    'body': 'Set fSys = Server.CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nStr.Close\nSet fStr = Nothing\nSet fSys = Nothing'
+    'body': 'Set fSys = Server.CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing'
   'Execute File':
     'prefix': 'Execute File'
-    'body': 'Set fSys = Server.CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nStr.Close\nSet fStr = Nothing\nSet fSys = Nothing\nExecute data'
+    'body': 'Set fSys = Server.CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing\nExecute data'
   'RecordSet':
     'prefix': 'RecordSet'
     'body': 'Set oRS Server.Createobject("ADODB.Recordset")'
