@@ -26,6 +26,9 @@
   'Request.QueryString':
     'prefix': 'r.q'
     'body': 'Request.QueryString("${1:name}")'
+  'Request.Cookies':
+    'prefix': 'r.c'
+    'body': 'Request.Cookies("${1:k}")'
   'Response.Write':
     'prefix': 'r.w'
     'body': 'Response.Write '
@@ -38,21 +41,33 @@
   'Session("…")':
     'prefix': 'sess'
     'body': 'Session("${1:whatever}")'
+  'Abandon Session':
+    'prefix': 's.a'
+    'body': 'Session.Abandon()'
   'Sub … End Sub':
     'prefix': 'Sub'
     'body': 'Sub ${1:S}\n\t\'body\nEnd Sub'
   'Function … End Function':
     'prefix': 'Function'
     'body': 'Function ${1:F}\n\t\'body\nEnd Function'
+  'Response.End':
+    'prefix': 'R.e'
+    'body': 'Response.End'
   'Read File':
     'prefix': 'ReadFile'
     'body': 'Set fSys = Server.CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing'
   'Execute File':
     'prefix': 'Execute File'
     'body': 'Set fSys = Server.CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing\nExecute data'
+  'Server Transfer':
+    'prefix': 's.t'
+    'body': 'Server.Transfer("${1:filepath}")'
   'RecordSet':
     'prefix': 'RecordSet'
     'body': 'Set oRS Server.Createobject("ADODB.Recordset")'
   'SQLRecordSet':
     'prefix': 'SQLRecord'
     'body': 'SQLStr = "SELECT * FROM tbl"\nSQLStr = SQLStr & " WHERE 1=2"\nSet oRS = Server.Createobject("ADODB.Recordset")\noRS.Open SQLStr,"DSN=",1,2\nIf Not oRS.EOF Then\n\t\'body\nEnd If\noRS.Close\nSet oRS = Nothing'
+  'Send Mail':
+    'prefix': 'Email'
+    'body': 'Set oMail=CreateObject("CDO.Message")\noMail.Subject="${1:subj}"\noMail.From="${2:from}"\noMail.To="${3:to}"\noMail.TextBody="${4:msgbody}"\noMail.Send\nSet oMail=Nothing'
