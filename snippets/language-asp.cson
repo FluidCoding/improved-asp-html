@@ -14,6 +14,12 @@
   'If … End if':
     'prefix': 'ifelse'
     'body': 'If ${1:condition} Then\n\t${2:\' true}\nElse\n\t${3:\' false}\nEnd if'
+  'If … Then':
+    'prefix': 'ift'
+    'body': 'If ${1:True} Then ${2:do}'
+  'If … Not':
+    'prefix': 'ifn'
+    'body': 'If ${1:x} <> ${2:0} Then ${3:do}'
   'Select … Case':
     'prefix': 'Select'
     'body': 'Select ${1:var}\n\tCase ${2:state}\n\t${3: \' state}\n\tCase Else\n\t\${4: \' else}\nEnd Select'
@@ -71,3 +77,43 @@
   'Send Mail':
     'prefix': 'Email'
     'body': 'Set oMail=CreateObject("CDO.Message")\noMail.Subject="${1:subj}"\noMail.From="${2:from}"\noMail.To="${3:to}"\noMail.TextBody="${4:msgbody}"\noMail.Send\nSet oMail=Nothing'
+  'Class Shell':
+    'prefix': 'Class'
+    'body': 'Class ${1:Cx}\nPrivate Sub Class_Initialize( )\n\t\'Constructor\nEnd Sub\n\nPrivate Sub Class_Terminate(  )\n\t\'On Nothingd\nEnd Sub\nEnd Class'
+'.source.vbs':
+  'Class Shell':
+    'prefix': 'Class'
+    'body': 'Class ${1:Cx}\nPrivate Sub Class_Initialize( )\n\t\'Constructor\nEnd Sub\n\nPrivate Sub Class_Terminate(  )\n\t\'On Nothingd\nEnd Sub\nEnd Class'
+  'Read File':
+    'prefix': 'ReadFile'
+    'body': 'Set fSys = CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing'
+  'Option Explicit':
+  	'prefix': 'Option'
+  	'body': 'Option Explicit'
+  'For … in … Next':
+    'prefix': 'forin'
+    'body': 'For Each ${1:var} in ${2:array}\n\t${3:\' body}\nNext'
+  'For … To … Next':
+    'prefix': 'forto'
+    'body': 'For ${1:i} To ${2:n}\n\t\' body\nNext'
+  'If … Then':
+    'prefix': 'ift'
+    'body': 'If ${1:True} Then ${2:do}'
+  'If … Not':
+    'prefix': 'ifn'
+    'body': 'If ${1:x} <> ${2:0} Then ${3:do}'
+  'If … End if':
+    'prefix': 'ifelse'
+    'body': 'If ${1:condition} Then\n\t${2:\' true}\nElse\n\t${3:\' false}\nEnd if'
+  'Select … Case':
+    'prefix': 'Select'
+    'body': 'Select ${1:var}\n\tCase ${2:state}\n\t${3: \' state}\n\tCase Else\n\t\${4: \' else}\nEnd Select'
+  'While … Wend':
+    'prefix': 'while'
+    'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
+  'Sub … End Sub':
+    'prefix': 'Sub'
+    'body': 'Sub ${1:S}\n\t\'body\nEnd Sub'
+  'Function … End Function':
+    'prefix': 'Function'
+    'body': 'Function ${1:F}\n\t\'body\nEnd Function'

@@ -1,5 +1,5 @@
 'fileTypes': [
-  'asp', 'vbs'
+  'asp','aspx'
 ]
 'name': 'HTML (ASP)'
 'patterns': [
