@@ -1,5 +1,8 @@
 # improved-asp-html package
+On Atom: 
+https://atom.io/packages/improved-asp-html
 
+On Github:
 https://github.com/FluidCoding/improved-asp-html
 
 Adds improved syntax highlighting and snippets for classic ASP files into Atom.
