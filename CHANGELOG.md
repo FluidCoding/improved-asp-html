@@ -7,3 +7,8 @@
 * Added VBScript Grammar name
 * Removed Junk boilerplate atom generated
 * Updated Strings
+
+## 1.7.0
+* Added VBScript Snippets
+* Fixed End Class
+* Added Snippets
