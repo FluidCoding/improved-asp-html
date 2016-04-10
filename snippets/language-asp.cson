@@ -5,6 +5,18 @@
   'Option Explicit':
   	'prefix': 'Option'
   	'body': 'Option Explicit'
+  'Dim = ':
+    'prefix': 'dim='
+    'body': 'Dim ${1:k} : ${1:k} = ${2:v}'
+  'Dim Set':
+    'prefix': 'dims'
+    'body': 'Dim ${1:o} : Set ${1:o} = ${2:v}'
+  'Multiline Comment':
+    'prefix': '/**'
+    'body': '\'\n\'$1\n\'\n\''
+  'Multiline Styled':
+    'prefix': '/**='
+    'body': '\'=========================================================================\n\'=========================================================================\n\'------------${1:Hello}------------\n\'=========================================================================\n\'========================================================================='
   'For … in … Next':
     'prefix': 'forin'
     'body': 'For Each ${1:var} in ${2:array}\n\t${3:\' body}\nNext'
@@ -80,13 +92,40 @@
   'Class Shell':
     'prefix': 'Class'
     'body': 'Class ${1:Cx}\nPrivate Sub Class_Initialize( )\n\t\'Constructor\nEnd Sub\n\nPrivate Sub Class_Terminate(  )\n\t\'On Nothingd\nEnd Sub\nEnd Class'
+  'Do … Until':
+    'prefix': 'do '
+    'body': 'Do Until ${1:False}\n\t\'body\nLoop'
+  'Write File':
+    'prefix': 'WriteFile'
+    'body': 'Set fSys = Server.CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.CreateTextFile(${1:path}, 2)\n\tfStr.Write data\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing'
+  'For Reading File':
+    'prefix': 'File For Reading'
+    'body': '1'
+  'For Writing File':
+    'prefix': 'File For Writing'
+    'body': '2'
+  'For Appending File':
+    'prefix': 'File For Appending'
+    'body': '8'
 '.source.vbs':
   'Class Shell':
     'prefix': 'Class'
     'body': 'Class ${1:Cx}\nPrivate Sub Class_Initialize( )\n\t\'Constructor\nEnd Sub\n\nPrivate Sub Class_Terminate(  )\n\t\'On Nothingd\nEnd Sub\nEnd Class'
+  'For Reading File':
+    'prefix': 'File For Reading'
+    'body': '1'
+  'For Writing File':
+    'prefix': 'File For Writing'
+    'body': '2'
+  'For Appending File':
+    'prefix': 'File For Appending'
+    'body': '8'
   'Read File':
     'prefix': 'ReadFile'
     'body': 'Set fSys = CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.OpenTextFile(${1:path}, 1)\n\tdata = fStr.ReadAll\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing'
+  'Write File':
+    'prefix': 'WriteFile'
+    'body': 'Set fSys = CreateObject("Scripting.FileSystemObject")\nSet fStr = fSys.CreateTextFile(${1:path}, 2)\n\tfStr.Write data\nfStr.Close\nSet fStr = Nothing\nSet fSys = Nothing'
   'Option Explicit':
   	'prefix': 'Option'
   	'body': 'Option Explicit'
@@ -111,9 +150,27 @@
   'While … Wend':
     'prefix': 'while'
     'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
+  'Do … Until':
+    'prefix': 'do '
+    'body': 'Do Until ${1:False}\n\t\'body\nLoop'
   'Sub … End Sub':
     'prefix': 'Sub'
     'body': 'Sub ${1:S}\n\t\'body\nEnd Sub'
   'Function … End Function':
     'prefix': 'Function'
     'body': 'Function ${1:F}\n\t\'body\nEnd Function'
+  'Dim =':
+    'prefix': 'dim='
+    'body': 'Dim ${1:k} : ${1:k} = ${2:v}'
+  'Dim Set':
+    'prefix': 'dims'
+    'body': 'Dim ${1:o} : Set ${1:o} = ${2:v}'
+  'Multiline Comment':
+    'prefix': '/**'
+    'body': '\'\n\'$1\n\'\n\''
+  'Multiline Styled':
+    'prefix': '/**='
+    'body': '\'=========================================================================\n\'=========================================================================\n\'------------${1:Hello}------------\n\'=========================================================================\n\'========================================================================='
+  'MsgBox':
+    'prefix': 'MsgBox'
+    'body': 'MsgBox ${1:"Hello"}'

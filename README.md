@@ -1,11 +1,11 @@
 # improved-asp-html package
-On Atom: 
+On Atom:
 https://atom.io/packages/improved-asp-html
 
 On Github:
 https://github.com/FluidCoding/improved-asp-html
 
-Adds improved syntax highlighting and snippets for classic ASP files into Atom.
+Main Feature: [Classic ASP/VBScript] - Bunch Of Snippets for Lazy People. Improved grammars.
 
 This Works well with [Monday-Syntax](https://github.com/ignism/monday-syntax)
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
