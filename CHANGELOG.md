@@ -12,3 +12,7 @@
 * Added VBScript Snippets
 * Fixed End Class
 * Added Snippets
+
+## 1.8.1
+* Modified ift Snippet
+* DimSet Snippets added

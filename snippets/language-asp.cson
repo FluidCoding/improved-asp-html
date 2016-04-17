@@ -28,10 +28,10 @@
     'body': 'If ${1:condition} Then\n\t${2:\' true}\nElse\n\t${3:\' false}\nEnd if'
   'If … Then':
     'prefix': 'ift'
-    'body': 'If ${1:True} Then ${2:do}'
+    'body': 'If ${1:True} Then ${2}'
   'If … Not':
     'prefix': 'ifn'
-    'body': 'If ${1:x} <> ${2:0} Then ${3:do}'
+    'body': 'If ${1:x} <> ${2:0} Then ${3}'
   'Select … Case':
     'prefix': 'Select'
     'body': 'Select ${1:var}\n\tCase ${2:state}\n\t${3: \' state}\n\tCase Else\n\t\${4: \' else}\nEnd Select'
@@ -165,6 +165,12 @@
   'Dim Set':
     'prefix': 'dims'
     'body': 'Dim ${1:o} : Set ${1:o} = ${2:v}'
+  'Single Comment Styled':
+    'prefix': '\'-'
+    'body': '\'--------- $1---------'
+  'Multiline Light':
+    'prefix': '/**-'
+    'body': '\'----------------------------------------------\n\'- $1 \n\'----------------------------------------------'
   'Multiline Comment':
     'prefix': '/**'
     'body': '\'\n\'$1\n\'\n\''
