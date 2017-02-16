@@ -109,7 +109,7 @@
     'name': 'support.variable.asp'
   }
   {
-    'match': '(?i:\\b\\.(Lock|Unlock|SetAbort|SetComplete|BianryRead|AddHeader|AppendToLog|BinaryWrite|Clear|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon)\\b)'
+    'match': '(?i:\\b\\.(Lock|Unlock|SetAbort|SetComplete|BianryRead|AddHeader|AppendToLog|BinaryWrite|Clear|Number|Open|Update|Close|Delete|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon)\\b)'
     'name': 'support.function.asp'
   }
   {
