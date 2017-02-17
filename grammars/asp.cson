@@ -101,7 +101,7 @@
     'name': 'support.class.asp'
   }
   {
-    'match': '(?i:\\b\\.(EOF|Contents|StaticObjects|ClientCertificate|Cookies|Form|QueryString|ServerVariables)\\b)'
+    'match': '(?i:\\b\\.(EOF|Contents|StaticObjects|ClientCertificate|Cookies|Form|QueryString|ServerVariables|AtEndOfStream|ReadLine)\\b)'
     'name': 'support.function.asp'
   }
   {
@@ -109,7 +109,7 @@
     'name': 'support.variable.asp'
   }
   {
-    'match': '(?i:\\b\\.(Lock|Unlock|SetAbort|SetComplete|BianryRead|ReadAll|AddHeader|AppendToLog|BinaryWrite|Clear|Number|Open|Update|Close|Delete|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon|OpenTextFile)\\b)'
+    'match': '(?i:\\b\\.(Lock|Unlock|SetAbort|SetComplete|BianryRead|ReadAll|AddHeader|AppendToLog|BinaryWrite|Clear|Number|Open|Update|Close|GetRows|RecordCount|Delete|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon|OpenTextFile|OpenAsTextStream|GetFile)\\b)'
     'name': 'support.function.asp'
   }
   {
