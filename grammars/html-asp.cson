@@ -27,6 +27,10 @@
     ]
   }
   {
+    'match': '<!--( ?)#include (file|virtual)="(.+)"( ?)-->'
+    'name': 'entity.name.entity.html'
+  }
+  {
     'include': 'text.html.basic'
   }
 ]
