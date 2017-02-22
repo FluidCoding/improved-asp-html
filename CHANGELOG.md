@@ -1,4 +1,8 @@
-## 1.2.0 - Branched
+## 1.8.1
+* Server Side Includes
+* CDOSYS
+
+## 1.2.0
 * Snippets Extended
 * Fixed Syntax highlighting of methods/object properties in Dims
 * Added Missing Keywords

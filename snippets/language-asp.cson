@@ -180,3 +180,23 @@
   'MsgBox':
     'prefix': 'MsgBox'
     'body': 'MsgBox ${1:"Hello"}'
+
+'.text.html.asp':
+  'CDOSYS Libraries':
+    'prefix': 'cdosys'
+    'body': """
+      <!--METADATA TYPE="typelib" NAME="CDO for Windows 2000 type Library" UUID="CD000000-8B95-11D1-82DB-00C04FB1625D" -->
+      <!--METADATA TYPE="typelib" NAME="ADODB type Library" UUID="00000205-0000-0010-8000-00AA006D2EA4" -->
+      """
+  'Include File':
+    'prefix': 'asp_incfile'
+    'body': '<!-- #include file="$1" -->'
+  'Include Virtual File':
+    'prefix': 'asp_incvirtual'
+    'body': '<!-- #include virtual="$1" -->'
+  'WriteAsp':
+    'prefix': '<%='
+    'body': '<%=$1%>'
+  'Asp':
+    'prefix': '<%'
+    'body': '<%\n$1\n%>'

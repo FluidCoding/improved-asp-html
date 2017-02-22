@@ -53,7 +53,7 @@
     ]
   }
   {
-    'match': '(?i:\\b(If|Then|Else|ElseIf|End If|While|Wend|For|To|Each|In|Step|Case|Select|End Select|Return|Continue|Do|Until|Loop|Next|With|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub)\\b)'
+    'match': '(?i:\\b(If|Then|Else|ElseIf|End If|While|Wend|For|To|Each|In|Step|Case|Select|End Select|Return|Continue|Do|Until|Loop|Next|With|End With|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub)\\b)'
     'name': 'keyword.control.asp'
   }
   {
@@ -101,11 +101,11 @@
     'name': 'support.class.asp'
   }
   {
-    'match': '(?i:\\b\\.(EOF|Contents|StaticObjects|ClientCertificate|Cookies|Form|QueryString|ServerVariables|AtEndOfStream|ReadLine)\\b)'
+    'match': '(?i:\\.(EOF|MoveNext|Contents|StaticObjects|ClientCertificate|Cookies|Form|QueryString|ServerVariables|AtEndOfStream|ReadLine|Send)\\b)'
     'name': 'support.function.asp'
   }
   {
-    'match': '(?i:\\b\\.(TotalBytes|Buffer|CacheControl|Charset|ContentType|Expires|ExpiresAbsolute|IsClientConnected|PICS|Status|ScriptTimeout|CodePage|LCID|SessionID|Timeout)\\b)'
+    'match': '(?i:\\.(TotalBytes|Buffer|CacheControl|Charset|ContentType|Expires|ExpiresAbsolute|IsClientConnected|PICS|Status|ScriptTimeout|CodePage|LCID|SessionID|Timeout|To|ReplyTo|CC|BCC|From|Subject|TextBody)\\b)'
     'name': 'support.variable.asp'
   }
   {
