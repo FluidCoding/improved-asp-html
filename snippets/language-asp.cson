@@ -34,7 +34,7 @@
     'body': 'If ${1:x} <> ${2:0} Then ${3}'
   'Select … Case':
     'prefix': 'Select'
-    'body': 'Select ${1:var}\n\tCase ${2:state}\n\t${3: \' state}\n\tCase Else\n\t\${4: \' else}\nEnd Select'
+    'body': 'Select Case ${1:var}\n\tCase ${2:state}\n\t${3: \' state}\n\tCase Else\n\t\${4: \' else}\nEnd Select'
   'While … Wend':
     'prefix': 'while'
     'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
