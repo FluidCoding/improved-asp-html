@@ -1,6 +1,6 @@
-## 1.8.2
+## 1.9.0
 * Select Case Syntax
-
+* VBS Comment shortcut
 
 ## 1.8.1
 * Modified ift Snippet

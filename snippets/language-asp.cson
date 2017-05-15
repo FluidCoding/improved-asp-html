@@ -146,7 +146,7 @@
     'body': 'If ${1:condition} Then\n\t${2:\' true}\nElse\n\t${3:\' false}\nEnd if'
   'Select … Case':
     'prefix': 'Select'
-    'body': 'Select ${1:var}\n\tCase ${2:state}\n\t${3: \' state}\n\tCase Else\n\t\${4: \' else}\nEnd Select'
+    'body': 'Select Case ${1:var}\n\tCase ${2:state}\n\t${3: \' state}\n\tCase Else\n\t\${4: \' else}\nEnd Select'
   'While … Wend':
     'prefix': 'while'
     'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
@@ -189,10 +189,10 @@
       <!--METADATA TYPE="typelib" NAME="ADODB type Library" UUID="00000205-0000-0010-8000-00AA006D2EA4" -->
       """
   'Include File':
-    'prefix': 'asp_incfile'
+    'prefix': 'include_file'
     'body': '<!-- #include file="$1" -->'
   'Include Virtual File':
-    'prefix': 'asp_incvirtual'
+    'prefix': 'include_virtual'
     'body': '<!-- #include virtual="$1" -->'
   'WriteAsp':
     'prefix': '<%='
