@@ -6,7 +6,7 @@ https://atom.io/packages/improved-asp-html
 On Github:
 https://github.com/FluidCoding/improved-asp-html
 
-Main Feature: [Classic ASP+VBScript] - Snippets for Lazy People. Improved grammars.
+Main Feature: [Classic ASP+VBScript] - Snippets for Lazy People. Improved grammars. Warnings.
 
 Contexts:
 - vbs

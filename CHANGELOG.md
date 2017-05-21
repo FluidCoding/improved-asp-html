@@ -1,6 +1,8 @@
 ## 1.10.1
-* function expression improved
+* Func/Sub expression improved
 * Abs
+* Added Syntax warnings
+* Date Snippet
 
 ## 1.9.0
 * Select Case Syntax
