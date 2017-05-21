@@ -80,6 +80,24 @@
   'Server Transfer':
     'prefix': 's.t'
     'body': 'Server.Transfer("${1:filepath}")'
+  'Server CreateObject Dictionary':
+    'prefix': 'server.created'
+    'body': 'Server.CreateObject("Scripting.Dictionary")'
+  'Server CreateObject Recordset':
+    'prefix': 'server.creater'
+    'body': 'Server.CreateObject("Scripting.Dictionary")'
+  'Server CreateObject FileSystem':
+    'prefix': 'server.createf'
+    'body': 'Server.CreateObject("Scripting.FileSystemObject")'
+  'Server Execute':
+    'prefix': 'server.execute'
+    'body': 'Server.Execute(${1})'
+  'Server HTMLEncode':
+    'prefix': 'server.HTMLEncode'
+    'body': 'Server.HTMLEncode(${1:str})'
+  'Dictionary':
+    'prefix': 'create_dictionary'
+    'body': 'Set ${1:di} = Server.CreateObject("Scripting.Dictionary")'
   'RecordSet':
     'prefix': 'RecordSet'
     'body': 'Set oRS Server.Createobject("ADODB.Recordset")'
