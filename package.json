@@ -1,0 +1,25 @@
+{
+  "name": "improved-asp-html",
+  "version": "1.12.0",
+  "description": "Improved ASP Classic Grammar and Snippets",
+  "keywords": [
+    "syntax",
+    "asp",
+    "grammar",
+    "vbscript",
+    "html",
+    "classic",
+    "vbs",
+    "fluidcoding",
+    "snippets",
+    "iis",
+    "hightlight",
+    "completion"
+  ],
+  "repository": "https://github.com/FluidCoding/improved-asp-html",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
