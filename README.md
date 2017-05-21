@@ -11,17 +11,19 @@ Main Feature: [Classic ASP+VBScript] - Snippets for Lazy People. Improved gramma
 Snippet Samples
 
 Dim=
+
 ![Dim=](https://raw.githubusercontent.com/FluidCoding/improved-asp-html/gh-pages/dimEq.gif)
 
 Warning Examples
 
 Dim Error
+
 ![Dim Err](https://raw.githubusercontent.com/FluidCoding/improved-asp-html/gh-pages/badDim.gif)
 
 
 if|elseif missing then, else if syntax 
-![if elseif](https://raw.githubusercontent.com/FluidCoding/improved-asp-html/gh-pages/ifelseif.gif)
 
+![if elseif](https://raw.githubusercontent.com/FluidCoding/improved-asp-html/gh-pages/ifelseif.gif)
 
 
 Contexts:
