@@ -12,7 +12,9 @@
     "vbs",
     "fluidcoding",
     "snippets",
-    "iis"
+    "iis",
+    "hightlight",
+    "completion"
   ],
   "repository": "https://github.com/FluidCoding/improved-asp-html",
   "license": "MIT",

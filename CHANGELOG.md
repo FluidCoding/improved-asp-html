@@ -1,3 +1,5 @@
+## 1.10.1
+
 ## 1.9.0
 * Select Case Syntax
 * VBS Comment shortcut
