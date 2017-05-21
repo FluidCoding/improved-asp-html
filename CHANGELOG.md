@@ -1,4 +1,6 @@
 ## 1.10.1
+* function expression improved
+* Abs
 
 ## 1.9.0
 * Select Case Syntax

@@ -15,7 +15,7 @@
         'name': 'variable.parameter.function.asp'
       '5':
         'name': 'punctuation.definition.parameters.asp'
-    'match': '^\\s*((?i:function|sub))\\s*([a-zA-Z_]\\w*)\\s*(\\()([^)]*)(\\)).*\\n?'
+    'match': '^\\s*((?i:function|sub)) \\s*([a-zA-Z_]\\w*)\\s*(\\()([^)]*)(\\)).*\\n?'
     'name': 'meta.function.asp'
   }
   {
