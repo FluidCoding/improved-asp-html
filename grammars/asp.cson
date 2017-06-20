@@ -57,7 +57,7 @@
     'name': 'keyword.error.syntax'
   }
   {
-    'match': '(?i:(if|elseif) ((?!then)(.))*(\n|\r))'
+    'match': '(?i:\\b(if|elseif)(\\b)+((?!then)(.))*(\n|\r))'
     'name': 'keyword.warning.syntax'
   }
   {

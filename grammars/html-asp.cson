@@ -27,11 +27,11 @@
     ]
   }
   {
-    'match': '<!--( ?)#include (file|virtual)="(.+)"( ?)-->'
+    'match': '<!-- ?#include (file|virtual)="(.+)" ?-->'
     'name': 'entity.name.tag.html'
   }
   {
-    'match': '<!--METADATA TYPE="typelib" (.+)-->'
+    'match': '<!-- ?METADATA TYPE="typelib" (.+)-->'
     'name': 'entity.name.tag.html'
   }
   {
