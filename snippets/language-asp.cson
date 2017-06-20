@@ -17,28 +17,28 @@
   'Multiline Styled':
     'prefix': '/**='
     'body': '\'=========================================================================\n\'=========================================================================\n\'------------${1:Hello}------------\n\'=========================================================================\n\'========================================================================='
-  'For … in … Next':
+  'For â€¦ in â€¦ Next':
     'prefix': 'forin'
     'body': 'For Each ${1:var} in ${2:array}\n\t${3:\' body}\nNext'
-  'For … To … Next':
+  'For â€¦ To â€¦ Next':
     'prefix': 'forto'
     'body': 'For ${1:i} To ${2:n}\n\t\' body\nNext'
-  'If … End if':
+  'If â€¦ End if':
     'prefix': 'ifelse'
     'body': 'If ${1:condition} Then\n\t${2:\' true}\nElse\n\t${3:\' false}\nEnd if'
-  'If … Then':
+  'If â€¦ Then':
     'prefix': 'ift'
     'body': 'If ${1:True} Then ${2}'
-  'If … Not':
+  'If â€¦ Not':
     'prefix': 'ifn'
     'body': 'If ${1:x} <> ${2:0} Then ${3}'
-  'Select … Case':
+  'Select â€¦ Case':
     'prefix': 'Select'
     'body': 'Select Case ${1:var}\n\tCase ${2:state}\n\t\t${3}\n\tCase Else\n\t\t${4}\nEnd Select'
-  'While … Wend':
+  'While â€¦ Wend':
     'prefix': 'while'
     'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
-  'Request.Form("…")':
+  'Request.Form("â€¦")':
     'prefix': 'r.f'
     'body': 'Request.Form("${1:field}")'
   'Request.QueryString':
@@ -53,19 +53,19 @@
   'Response.Redirect':
     'prefix': 'r.r'
     'body': 'Response.Redirect(${1:to})'
-  'Application("…")':
+  'Application("â€¦")':
     'prefix': 'app'
     'body': 'Application("$1")'
-  'Session("…")':
+  'Session("â€¦")':
     'prefix': 'sess'
     'body': 'Session("${1:whatever}")'
   'Abandon Session':
     'prefix': 's.a'
     'body': 'Session.Abandon()'
-  'Sub … End Sub':
+  'Sub â€¦ End Sub':
     'prefix': 'Sub'
     'body': 'Sub ${1:S}\n\t\'body\nEnd Sub'
-  'Function … End Function':
+  'Function â€¦ End Function':
     'prefix': 'Function'
     'body': 'Function ${1:F}\n\t\'body\nEnd Function'
   'Response.End':
@@ -110,7 +110,7 @@
   'Class Shell':
     'prefix': 'Class'
     'body': 'Class ${1:Cx}\nPrivate Sub Class_Initialize( )\n\t\'Constructor\nEnd Sub\n\nPrivate Sub Class_Terminate(  )\n\t\'On Nothingd\nEnd Sub\nEnd Class'
-  'Do … Until':
+  'Do â€¦ Until':
     'prefix': 'do '
     'body': 'Do Until ${1:False}\n\t\'body\nLoop'
   'Write File':
@@ -153,34 +153,34 @@
   'Option Explicit':
   	'prefix': 'Option'
   	'body': 'Option Explicit'
-  'For … in … Next':
+  'For â€¦ in â€¦ Next':
     'prefix': 'forin'
     'body': 'For Each ${1:var} in ${2:array}\n\t${3:\' body}\nNext'
-  'For … To … Next':
+  'For â€¦ To â€¦ Next':
     'prefix': 'forto'
     'body': 'For ${1:i} To ${2:n}\n\t\' body\nNext'
-  'If … Then':
+  'If â€¦ Then':
     'prefix': 'ift'
     'body': 'If ${1:True} Then ${2:do}'
-  'If … Not':
+  'If â€¦ Not':
     'prefix': 'ifn'
     'body': 'If ${1:x} <> ${2:0} Then ${3:do}'
-  'If … End if':
+  'If â€¦ End if':
     'prefix': 'ifelse'
     'body': 'If ${1:condition} Then\n\t${2:\' true}\nElse\n\t${3:\' false}\nEnd if'
-  'Select … Case':
+  'Select â€¦ Case':
     'prefix': 'Select'
     'body': 'Select Case ${1:var}\n\tCase ${2:state}\n\t\t${3}\n\tCase Else\n\t\t${4}\nEnd Select'
-  'While … Wend':
+  'While â€¦ Wend':
     'prefix': 'while'
     'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
-  'Do … Until':
+  'Do â€¦ Until':
     'prefix': 'do '
     'body': 'Do Until ${1:False}\n\t\'body\nLoop'
-  'Sub … End Sub':
+  'Sub â€¦ End Sub':
     'prefix': 'Sub'
     'body': 'Sub ${1:S}\n\t\'body\nEnd Sub'
-  'Function … End Function':
+  'Function â€¦ End Function':
     'prefix': 'Function'
     'body': 'Function ${1:F}\n\t\'body\nEnd Function'
   'Dim =':
