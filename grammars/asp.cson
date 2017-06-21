@@ -57,10 +57,6 @@
     'name': 'keyword.error.syntax'
   }
   {
-    'match': '(?i:\\b(if|elseif)(\\b)+((?!then)(.))*(\n|\r))'
-    'name': 'keyword.warning.syntax'
-  }
-  {
     'match': '(?i:\\b(If|Then|Else|ElseIf|End If|While|Wend|For|To|Each|In|Step|Case|Select|End Select|Return|Continue|Do|Until|Loop|Next|With|End With|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub)\\b)'
     'name': 'keyword.control.asp'
   }
