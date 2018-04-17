@@ -35,7 +35,7 @@
     'name': 'entity.name.tag.html'
   }
   {
-    'include': 'text.html.basic'
+    'include': 'text.html.extended'
   }
 ]
 'scopeName': 'text.html.asp'
